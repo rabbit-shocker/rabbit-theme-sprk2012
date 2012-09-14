@@ -1,4 +1,6 @@
-background_image = "sprk2012-background.png"
+set_background_image("sprk2012-background-tile.png")
+
+background_image = "sprk2012-background-image.png"
 
 @slide_background_image = background_image
 @title_slide_background_image = background_image
@@ -6,9 +8,15 @@ include_theme("slide-background-image")
 include_theme("title-slide-background-image")
 
 @margin_left = screen_x(2)
-@margin_right = screen_x(2)
+@margin_right = screen_x(3)
 @margin_top = screen_y(10)
-@margin_bottom = screen_y(11)
+@margin_bottom = screen_y(10)
+
+title_slide_margin = {
+  :bottom => screen_y(20),
+}
+
+@default_headline_line_width = 0
 
 light_color = "#d4d7da"
 dark_color = "#293745"
@@ -40,3 +48,7 @@ ruby_color = "#ee3706"
 @image_slide_number_goal_flag_color = dark_color
 
 include_theme("default")
+
+match(TitleSlide) do |slides|
+  margin_with(title_slide_margin)
+end
