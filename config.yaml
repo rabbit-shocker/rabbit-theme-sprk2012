@@ -1,0 +1,14 @@
+---
+id: sprk2012
+tags:
+- sprk2012
+version: 1.0.0
+licenses:
+- CC BY-ND 3.0
+author:
+  markup_language: :rd
+  name: Rabbit
+  email: lavie@rabbit-shocker.org
+  rubygems_user: rabbit
+  slideshare_user:
+  speaker_deck_user:
