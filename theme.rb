@@ -1,5 +1,3 @@
-set_background_image("sprk2012-background-tile.png")
-
 background_image = "sprk2012-background-image.png"
 
 @slide_background_image = background_image
