@@ -1,4 +1,4 @@
-background_image = "sprk2012-background-image.png"
+background_image = "sprk2012-background-image.svg"
 
 @slide_background_image = background_image
 @title_slide_background_image = background_image
